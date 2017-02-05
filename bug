@@ -1,0 +1,10 @@
+#10000 跨域 fixed
+#10001 Home下拉样式错误 fixed
+#10002 ajax 414 fixed
+#10003 图片剪裁系统 Pending
+#10004 this.$route undefined to be investigated
+#10005 router-view keep-alive 崩溃 to be investigated
+#10006 watch 钩子不执行 Pending
+#10007 我 页面 偶尔获取不到用户信息 to be investigated
+#10008 首页tab切换，页面切换颜色状态反应不读 Pending
+#10009 搜索框移位 Pending

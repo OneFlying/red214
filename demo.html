@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>渐变文字</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <canvas id="canvas" width="600" height="45"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById('canvas'),
+            ctx = canvas.getContext('2d'),
+            gradient = ctx.createLinearGradient(0, 0, 0, 40);
+
+        ctx.shadowColor = 'rgba(0,0,0,0.9)';
+        ctx.shadowOffsetX = 2;
+        ctx.shadowOffsetY = 2;
+        ctx.shadowBlur = 2;
+
+        gradient.addColorStop(0,'black');
+        gradient.addColorStop(0.3,'green');
+        gradient.addColorStop(0.6,'yellow');
+        gradient.addColorStop(1,'red');
+
+        ctx.font = '40px Microsoft YaHei';
+        ctx.fillStyle = gradient;
+
+        ctx.fillText('hello world', 0, 40);
+        ctx.restore();
+    </script>
+</body>
+</html>
