@@ -1,0 +1,24 @@
+/**
+ * Created by caiyu on 2017/1/10.
+ */
+// BASE
+export const UPDATE_LOADING = 'UPDATE_LOADING'
+export const UPDATE_DIRECTION = 'UPDATE_DIRECTION'
+export const UPDATE_MY = 'UPDATE_MY'
+export const UPDATE_GOTO = 'UPDATE_GOTO'
+export const UPDATE_LANGUAGE = 'UPDATE_LANGUAGE'
+export const UPDATE_TITLE = 'UPDATE_TITLE'
+export const UPDATE_BALANCE = 'UPDATE_BALANCE'
+export const UPDATE_GROUP = 'UPDATE_GROUP'
+
+// ERROR
+export const UPDATE_ERROR = 'UPDATE_ERROR'
+
+// 登录和注册
+export const UPDATE_USERINFO = 'UPDATE_USERINFO'
+
+// 首页
+export const UPDATE_USERLIST = 'UPDATE_USERLIST'
+export const UPDATE_MYPALS = 'UPDATE_MYPALS'
+export const RESET_USERLIST = 'RESET_USERLIST'
+export const CHECK_FIRSTLOADING = 'CHECK_FIRSTLOADING'
