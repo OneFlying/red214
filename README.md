@@ -1,5 +1,5 @@
 # red214
-社交SPA
+社交SPA（项目已停止维护）
 
 ## Build Setup
 
